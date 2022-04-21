@@ -238,6 +238,11 @@ a {
     height: 151px;
 }
 
+.news__img--big {
+    width: 520px;
+    height: 333px;
+}
+
 .news__item-title {
     font-family: 'Libre Baskerville';
     font-style: normal;
@@ -245,6 +250,7 @@ a {
     font-size: 23px;
     line-height: 110%;
     color: #475F45;
+    margin-top: 20px;
 }
 
 .news__item-text {
@@ -254,6 +260,8 @@ a {
     font-size: 16px;
     line-height: 150%;
     color: #414840;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .news__item-date {
@@ -270,6 +278,16 @@ a {
     flex-direction: row;
     align-items: center;
     padding: 0px 20px 0px 0px;
+    border-bottom: #C4C4C4 1px solid;
+    margin-bottom: 20px;
+}
+
+.news__item--big {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px 0px 0px;
+    border-bottom: 0;
 }
 
 .news__item-desc {
@@ -281,4 +299,9 @@ a {
     order: 1;
     flex-grow: 0;
     margin: 0px 20px;
+}
+
+.news__content {
+    display: flex;
+    justify-content: space-between;
 }

@@ -150,6 +150,7 @@ a {
 .btn--white {
     border: 2px solid #FFFFFF;
     color: white;
+    margin-right: 218px;
 }
 
 .hero__img {
@@ -164,6 +165,13 @@ a {
     flex-direction: column-reverse;
 }
 
+.about__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1080px;
+}
+
 .about__top-img {
     width: 534px;
 }
@@ -172,10 +180,12 @@ a {
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    margin-bottom: 80px;
 }
 
 .about__desc {
     display: flex;
+    align-items: flex-end;
 }
 
 .about__info {
@@ -185,6 +195,7 @@ a {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
+    width: 410px;
 }
 
 .about__top-img-wrap {
@@ -199,4 +210,75 @@ a {
     line-height: 110%;
     text-transform: capitalize;
     color: white;
+}
+
+.news__subtitle {
+    color: #343D33;
+    margin-top: 96px;
+}
+
+.news__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.news__img {
+    width: 236px;
+    height: 151px;
+}
+
+.news__item-title {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 110%;
+    color: #475F45;
+}
+
+.news__item-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414840;
+}
+
+.news__item-date {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #343D33;
+}
+
+.news__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+}
+
+.news__item-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 20px;
 }

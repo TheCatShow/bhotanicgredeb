@@ -305,3 +305,120 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.footer__top {
+    background-color: #414840;
+}
+
+.footer__info {
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer__column {
+    color: white;
+}
+
+.footer__logo-block {
+    padding-top: 48px;
+}
+
+.footer__subtitle {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer__nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+.footer__nav-item {
+    margin-bottom: 10px;
+}
+
+.footer__nav-list {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.social__list {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social__item {
+    margin-right: 32px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.social__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    background-image: url(/img/icon/twitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fb {
+    background-image: url(/img/icon/facebook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.in {
+    background-image: url(/img/icon/linkedin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mail {
+    background-image: url(/img/icon/mail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer__bottom {
+    background: #343D33;
+    padding-top: 29px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

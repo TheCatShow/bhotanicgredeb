@@ -422,3 +422,121 @@ a {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .news__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news__item--big {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .news__img--big {
+        width: 392px;
+        height: 251px;
+    }
+
+    .header {
+        padding-top: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header__mobile {
+        display: flex;
+        margin-right: 18px;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        align-items: center;
+    }
+
+    .header__mobile-el {
+        height: 2px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .header__mobile-el::before .header__mobile-el::after {
+        height: 2px;
+        width: 100%;
+        background-color: #21243D;
+    }
+
+    .header__mobile-el::before {
+        content: '';
+        top: 0px;
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+    }
+
+    .header__mobile-el::after {
+        content: '';
+        bottom: 0px;
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+    }
+
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 45px;
+        text-align: center;
+        margin-top: 56px;
+    }
+
+    .hero__desc {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .hero__btns {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        margin-left: 178px;
+    }
+
+    .btn--active {
+        margin-right: 16px;
+    }
+
+    .hero__img {
+        width: 394px;
+        height: 545px;
+        margin-top: 64px;
+    }
+
+    .about__container {
+        display: flex;
+
+    }
+
+    .about__column {
+        display: flex;
+    }
+
+    .about__bottom-img {
+        width: 534px;
+        height: 211px;
+        display: flex;
+    }
+    .about__desc {
+        display: flex;
+    }
+}
